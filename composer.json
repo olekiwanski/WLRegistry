@@ -1,5 +1,5 @@
 {
-    "name": "olekiwanski/wlregistry",
+    "name": "user/wl-registry",
     "description": "Library for retrieving data from the register of VAT taxpayers",
     "type": "librart",
     "license": "MIT",
