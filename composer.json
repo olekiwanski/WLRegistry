@@ -3,6 +3,7 @@
     "description": "Library for retrieving data from the register of VAT taxpayers",
     "type": "librart",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Aleksander",
