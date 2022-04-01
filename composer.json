@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Aleksander",
-            "email": "aleksander.iwanski@aitnet.pl"
+            "email": "olekiwanski@gmail.com"
         }
     ],
     "autoload": {
@@ -14,5 +14,10 @@
             "WLRegistryAPI\\":"src/"
         }
     },
-    "require": {}
+    "require": {
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
