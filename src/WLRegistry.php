@@ -4,13 +4,13 @@
 namespace WLRegistryAPI;
 
 /**
- * Repository: https://github.com/olekiwanski/WL-Registry-API
+ * Repository: https://github.com/olekiwanski/wlregistry
  * Official api reference: https://wl-api.mf.gov.pl
  */
 class WLRegistry
 {
 
-    const API_DOMAIN = "https://wl-api.mf.gov.pl/";
+    const API_DOMAIN = "https://wl-api.mf.gov.pl";
     protected $date;
 
 
@@ -134,6 +134,7 @@ class WLRegistry
         }
         return new ResultSingle($subject_data['result']);
     }
+
     /**
      * @param string $regons
      * @return Result|ErrorResponse
@@ -174,8 +175,8 @@ class WLRegistry
      */
     private function _request($path, $params)
     {
-
         $curl = curl_init();
+
         curl_setopt_array($curl, array(
             CURLOPT_URL => self::API_DOMAIN . $path . '?' . http_build_query($params),
             CURLOPT_RETURNTRANSFER => true,
