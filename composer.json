@@ -15,8 +15,7 @@
         }
     },
     "require": {
-        "ext-json": "*",
-        "ext-curl": "*"
+        "php": ">=7.4.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
