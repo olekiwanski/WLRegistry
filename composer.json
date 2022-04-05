@@ -15,7 +15,6 @@
         }
     },
     "require": {
-        "wlregistry/wlregistry": "dev-master",
         "php": ">=7.4.0"
     },
     "minimum-stability": "dev",
