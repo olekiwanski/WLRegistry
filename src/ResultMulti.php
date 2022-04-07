@@ -5,7 +5,7 @@ namespace WLRegistryAPI;
 class ResultMulti extends Result
 {
     /** @var  array */
-    protected $subjects;
+    protected array $subjects;
 
     public function __construct(array $data)
     {

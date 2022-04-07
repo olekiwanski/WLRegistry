@@ -5,7 +5,7 @@ namespace WLRegistryAPI;
 class ResultSingle extends Result
 {
     /** @var  Subject */
-    protected $subject;
+    protected Subject $subject;
 
     public function __construct(array $data)
     {

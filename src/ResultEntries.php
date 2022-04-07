@@ -5,7 +5,7 @@ namespace WLRegistryAPI;
 class ResultEntries extends Result
 {
     /** @var  array */
-    protected $entries;
+    protected array $entries;
 
     public function __construct(array $data)
     {

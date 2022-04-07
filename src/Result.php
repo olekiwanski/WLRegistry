@@ -5,9 +5,9 @@ namespace WLRegistryAPI;
 abstract class Result
 {
     /** @var  string */
-    protected $requestDateTime;
+    protected string $requestDateTime;
     /** @var  string */
-    protected $requestId;
+    protected string $requestId;
 
     /**
      * @return string

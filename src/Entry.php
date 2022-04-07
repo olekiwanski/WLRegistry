@@ -7,9 +7,9 @@ class Entry
     /** @var  string */
     protected $identifier;
     /** @var  array */
-    protected $subjects;
+    protected array $subjects;
     /** @var  ErrorResponse */
-    protected $error;
+    protected ErrorResponse $error;
 
     function __construct(array $data)
     {

@@ -21,7 +21,7 @@ class Subject
     /** @var  string */
     protected $workingAddress;
     /** @var  array */
-    protected $representatives = [];
+    protected array $representatives = [];
     /** @var  array */
     protected $authorizedClerks;
     /** @var  array */
