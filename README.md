@@ -11,7 +11,7 @@ composer require wlregistry/wlregistry
 ```php
 $wl = new WLRegistry();
 
-$wl->setDate("2021-01-01")
+$wl->setDate("2021-01-01");
 //Get single subject by nip number
 $subject = $wl->searchSingleSubjectByNip("5252344078");
 //Get list of subject by nip numbers 
