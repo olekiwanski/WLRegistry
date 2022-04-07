@@ -27,7 +27,7 @@ $subject = $wl->searchSubjectsByRegons("930171612,140182840");
 //Check the assignment of the account to the nip number
 $subject = $wl->checkSingleSubjectByNipAndBankAccounts("5252344078","34103015080000000504162001");
 //Check the assignment of the account to the regon
-$subject = $wl->checkSingleSubjectByNipAndBankAccounts("930171612","12114010100000361155001002");
+$subject = $wl->checkSingleSubjectByRegonAndBankAccounts("930171612","12114010100000361155001002");
 
 
 ```
