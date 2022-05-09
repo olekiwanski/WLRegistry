@@ -5,14 +5,11 @@ namespace WLRegistryAPI;
 class SubjectRepresentative
 {
 
-    /** @var  string */
-    protected $firstName;
-    /** @var  string */
-    protected $lastName;
-    /** @var  string */
-    protected $nip;
-    /** @var  string */
-    protected $companyName;
+
+    protected string $firstName;
+    protected string $lastName;
+    protected string $nip;
+    protected string $companyName;
 
     public function __construct(array $data)
     {
@@ -22,38 +19,25 @@ class SubjectRepresentative
         $this->companyName = $data['companyName'];
     }
 
-    /**
-     * @return string
-     */
     public function getFirstName(): string
     {
         return $this->firstName;
     }
 
-    /**
-     * @return string
-     */
     public function getLastName(): string
     {
         return $this->lastName;
     }
 
-    /**
-     * @return string
-     */
     public function getNip(): string
     {
         return $this->nip;
     }
 
-    /**
-     * @return string
-     */
     public function getCompanyName(): string
     {
         return $this->companyName;
     }
-
 
 
 }

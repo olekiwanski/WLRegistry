@@ -4,7 +4,6 @@ namespace WLRegistryAPI;
 
 class ResultSingle extends Result
 {
-    /** @var  Subject */
     protected Subject $subject;
 
     public function __construct(array $data)
@@ -16,9 +15,6 @@ class ResultSingle extends Result
         return $this;
     }
 
-    /**
-     * @return Subject
-     */
     public function getSubject(): Subject
     {
         return $this->subject;

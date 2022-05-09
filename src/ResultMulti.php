@@ -21,9 +21,6 @@ class ResultMulti extends Result
         return $this;
     }
 
-    /**
-     * @return array
-     */
     public function getSubjects(): array
     {
         return $this->subjects;

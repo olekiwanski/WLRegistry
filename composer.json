@@ -1,22 +1,26 @@
 {
-    "name": "wlregistry/wlregistry",
-    "description": "Library for retrieving data from the register of VAT taxpayers",
-    "type": "librart",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Aleksander",
-            "email": "olekiwanski@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "WLRegistryAPI\\":"src/"
-        }
-    },
-    "require": {
-        "php": ">=7.4.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "wlregistry/wlregistry",
+  "description": "Library for retrieving data from the register of VAT taxpayers",
+  "type": "librart",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksander",
+      "email": "olekiwanski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WLRegistryAPI\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "require": {
+    "ext-curl": "*",
+    "php": ">=8.0"
+  }
 }

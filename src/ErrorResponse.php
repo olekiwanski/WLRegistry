@@ -4,10 +4,8 @@ namespace WLRegistryAPI;
 
 class ErrorResponse
 {
-    /** @var  string */
-    protected $code;
-    /** @var  string */
-    protected $message;
+    protected string $code;
+    protected string $message;
 
     public function __construct(array $data)
     {
@@ -16,18 +14,12 @@ class ErrorResponse
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getCode()
+    public function getCode(): string
     {
         return $this->code;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getMessage()
+    public function getMessage(): string
     {
         return $this->message;
     }

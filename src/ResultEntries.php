@@ -4,7 +4,6 @@ namespace WLRegistryAPI;
 
 class ResultEntries extends Result
 {
-    /** @var  array */
     protected array $entries;
 
     public function __construct(array $data)
@@ -19,9 +18,6 @@ class ResultEntries extends Result
         return $this;
     }
 
-    /**
-     * @return array
-     */
     public function getEntries(): array
     {
         return $this->entries;
