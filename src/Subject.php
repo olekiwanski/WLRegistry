@@ -5,24 +5,24 @@ namespace WLRegistryAPI;
 class Subject
 {
 
-    protected string $name;
-    protected string $nip;
-    protected string $statusVat;
-    protected string $regon;
-    protected string $pesel;
-    protected string $krs;
-    protected string $residenceAddress;
-    protected string $workingAddress;
-    protected array $representatives = [];
-    protected array $authorizedClerks;
-    protected array $partners;
-    protected string $registrationLegalDate;
-    protected string $registrationDenialBasis;
-    protected string $restorationBasis;
-    protected string $restorationDate;
-    protected string $removalBasis;
-    protected string $removalDate;
-    protected array $accountNumbers = [];
+    protected string|null $name;
+    protected string|null $nip;
+    protected string|null $statusVat;
+    protected string|null $regon;
+    protected string|null $pesel;
+    protected string|null $krs;
+    protected string|null $residenceAddress;
+    protected string|null $workingAddress;
+    protected array|null $representatives = [];
+    protected array|null $authorizedClerks;
+    protected array|null $partners;
+    protected string|null $registrationLegalDate;
+    protected string|null $registrationDenialBasis;
+    protected string|null $restorationBasis;
+    protected string|null $restorationDate;
+    protected string|null $removalBasis;
+    protected string|null $removalDate;
+    protected array|null $accountNumbers = [];
     protected bool $hasVirtualAccounts;
 
     public function __construct(array $date)
